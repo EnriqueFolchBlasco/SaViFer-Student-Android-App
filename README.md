@@ -57,6 +57,8 @@ In case that you are a teacher you will be able to add posts.
 
 In the chat fragment every user no matter the role can send messages, in settings you can cahnge the color of your bubbles, no matter if you change your user nickname in settings your menssages will be displayed on the left, and the other people menssages will be on the right.
 
+In the settings fragment you can change the user that will be displayed in the chat fragment, in order to other admins moderate and such the UID of the email is under the name, you can also change the bubble color and a offline mode that currently does nothing.
+
 ![chat_fragment](https://github.com/user-attachments/assets/33e81eec-096e-44d6-a4ba-ab3097f0e3ea)
 
 <h3>Reminders Fragment</h3>
