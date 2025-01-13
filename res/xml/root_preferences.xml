@@ -1,0 +1,29 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="Chat">
+
+        <EditTextPreference
+            app:key="username4chat"
+            app:title="@string/Username"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="color4chat"
+            app:title="@string/Chat_Color"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Cache">
+
+        <SwitchPreferenceCompat
+            app:key="offline_mode"
+            app:title="@string/offline"
+            app:defaultValue="false" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

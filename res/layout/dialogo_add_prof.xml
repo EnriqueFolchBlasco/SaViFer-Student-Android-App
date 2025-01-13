@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvPostTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/Add_a_teacher_to_the_teachers_list"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:paddingBottom="8dp"
+            android:gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/botoClose"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:background="@drawable/button_border_green"
+            android:clickable="true"
+            android:drawableLeft="@drawable/baseline_close_24"
+            android:drawableTint="@color/green"
+            android:elevation="4dp"
+            android:padding="0dp"
+            android:textSize="2sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextProfessorEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/Email_of_the_teacher"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/add_button"
+            android:layout_width="180dp"
+            android:layout_height="50dp"
+            android:text="@string/Add_as_teacher"
+            android:layout_marginEnd="6dp" />
+
+        <Button
+            android:id="@+id/remove_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/Remove_as_teacher"
+            android:layout_marginStart="6dp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

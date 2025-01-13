@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/Tabs">
+            <menu>
+                <item
+                    android:id="@+id/action_retrofitFragment"
+                    android:icon="@drawable/baseline_newspaper_24"
+                    android:title="@string/Retrofit_fragment" />
+                <item
+                    android:id="@+id/action_chatFragment"
+                    android:icon="@drawable/baseline_chat_24"
+                    android:title="@string/Chat_fragment" />
+                <item
+                    android:id="@+id/action_freeFragment"
+                    android:icon="@drawable/baseline_task_alt_24"
+                    android:title="@string/Free_fragment" />
+            </menu>
+        </item>
+
+        <item android:title="@string/Account">
+            <menu>
+                <item
+                    android:id="@+id/action_settingsFragment"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:title="@string/Settings_fragment" />
+
+                <item
+                    android:id="@+id/action_settingsLogout"
+                    android:icon="@drawable/baseline_logout_24"
+                    android:title="@string/action_logout" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>
