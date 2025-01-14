@@ -15,7 +15,7 @@ In order to work I use firebase authentication, which stores a email and a passw
 
 This role has a 3 role system, they are "Administrator", "Teacher", Student.
 
-| Role     | Can See Content | Other Permissions                          |
+| Role     | Can See The News | Button function with permissions                         |
 |----------|-----------------|--------------------------------------------|
 | Student  | Yes             |                                            |
 | Teacher  | Yes             | Can create posts                          |
