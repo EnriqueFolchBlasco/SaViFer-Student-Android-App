@@ -15,13 +15,13 @@ In order to work I use firebase authentication, which stores a email and a passw
 
 This role has a 3 role system, they are "Administrator", "Teacher", Student.
 
-| Role     | Can See The News | Button function with permissions                         |
+| Role     | Can See The News | Button function                         |
 |----------|-----------------|--------------------------------------------|
-| Student  | Yes             |                                            |
+| Student  | Yes             | None                                           |
 | Teacher  | Yes             | Can create posts                          |
 | Admin    | Yes             | Can add professors with an email          |
 
-Other permissions can be accessed via a a "Plus" button located in the posts area.
+The functions of the roles can be accessed via a a "Plus" button located in the posts area.
 
 ![image](https://github.com/user-attachments/assets/0198133d-cc62-4437-aedf-cdfaf289010e)
 
