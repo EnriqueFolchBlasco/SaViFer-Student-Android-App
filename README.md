@@ -7,7 +7,7 @@ This app was developed as a **Christmas 2024** project. It was a fun challenge t
 > This app does not represent neither contain real information about the center which is based "IES Sant Vicent Ferrer".
 > I't s a project made to learn and improve my programming skills.
 
-This app has support fortthe languages: ca/es/en/
+This app has support for the languages, ca/es/en.
 
 <h2>Login Activity</h2>
 
